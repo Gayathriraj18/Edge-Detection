@@ -99,24 +99,6 @@ canny_edges = cv2.Canny(gray_img, 120, 150)
 plt.imshow(canny_edges,cmap='gray')
 plt.title('canny_edges')
 plt.show()
-
-# Load the image, Convert to grayscale and remove noise
-
-
-
-# SOBEL EDGE DETECTOR
-
-
-
-# LAPLACIAN EDGE DETECTOR
-
-
-
-# CANNY EDGE DETECTOR
-
-
-
-
 ```
 ## Output:
 
@@ -131,7 +113,7 @@ plt.show()
 
 ### SOBEL EDGE DETECTOR : 
 
-# Sobelx :
+### Sobelx :
 
 ![7 3](https://user-images.githubusercontent.com/94154854/232326129-e44f6b1c-9cd3-4fcb-9c6e-fb6583188e2f.png)
 
@@ -143,14 +125,9 @@ plt.show()
 
 ![7 5](https://user-images.githubusercontent.com/94154854/232326162-2e357e1a-1aca-4551-a2f4-154e6a37a397.png)
 
-
-
-
 ### LAPLACIAN EDGE DETECTOR
 
 ![7 6](https://user-images.githubusercontent.com/94154854/232326176-bb49b06e-ecae-4801-85e9-fd5d73ce7931.png)
-
-
 
 ### CANNY EDGE DETECTOR
 
