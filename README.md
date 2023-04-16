@@ -6,23 +6,21 @@ To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 Anaconda - Python 3.7
 
 ## Algorithm:
-### Step1:
-<br>
+# Step1:
+Import the required packages for further process.
 
+# Step2:
+Read the image and convert the bgr image to gray scale image.
 
-### Step2:
-<br>
+# Step3:
+Use any filters for smoothing the image to reduse the noise.
 
-### Step3:
-<br>
+# Step4:
+Apply the respective filters -Sobel,Laplacian edge dectector and Canny edge dector.
 
-### Step4:
-<br>
+# Step5:
+Display the filtered image using plot and imshow.
 
-### Step5:
-<br>
-
- 
 ## Program:
 
 ``` Python
