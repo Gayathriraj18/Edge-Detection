@@ -61,21 +61,21 @@ plt.subplot(1,1,1)
 plt.imshow(gray_img,cmap = 'gray')
 plt.title('Original'), plt.xticks([]), plt.yticks([])
 
-# sobelx : 
+# SOBELx : 
 
 plt.subplot(1,1,1)
 plt.imshow(sobelx,cmap='gray')
 plt.title('sobelx')
 plt.xticks([]), plt.yticks([])
 
-# sobely : 
+# SOBELy : 
 
 plt.subplot(1,1,1)
 plt.imshow(sobely,cmap='gray')
 plt.title('sobely')
 plt.xticks([]), plt.yticks([])
 
-# sobelxy : 
+# SOBELxy : 
 
 plt.subplot(1,1,1)
 plt.imshow(sobelxy,cmap='gray')
@@ -102,26 +102,26 @@ plt.show()
 ```
 ## Output:
 
-# Original Image :
+# ORIGINAL IMAGE :
 
 ![7 1](https://user-images.githubusercontent.com/94154854/232326103-66b5b7b0-f512-45f3-88a2-95d40a755b3a.png)
 
-# Gray Image : 
+# GRAY IMAGE : 
 
 ![7 2](https://user-images.githubusercontent.com/94154854/232326112-0986daf4-75c6-4cf9-bf7c-45fbe05666bb.png)
 
 
 ### SOBEL EDGE DETECTOR : 
 
-### Sobelx :
+### SOBELx :
 
 ![7 3](https://user-images.githubusercontent.com/94154854/232326129-e44f6b1c-9cd3-4fcb-9c6e-fb6583188e2f.png)
 
-# Sobely :
+# SOBELy :
 
 ![7 4](https://user-images.githubusercontent.com/94154854/232326144-cbbb2199-f2a2-4ac0-ad8d-37bc5b986ce1.png)
 
-# Sobelxy :
+# SOBELxy :
 
 ![7 5](https://user-images.githubusercontent.com/94154854/232326162-2e357e1a-1aca-4551-a2f4-154e6a37a397.png)
 
