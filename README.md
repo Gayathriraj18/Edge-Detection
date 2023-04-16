@@ -83,8 +83,6 @@ plt.title('sobelxy')
 plt.xticks([]), plt.yticks([])
 plt.show()
 
-
-
 # LAPLACIAN EDGE DETECTOR :
 
 laplacian = cv2.Laplacian(gray_img,cv2.CV_64F)
@@ -92,9 +90,8 @@ plt.imshow(laplacian,cmap='gray')
 plt.title('laplacian')
 plt.show()
 
-
-
 # CANNY EDGE DETECTOR:
+
 canny_edges = cv2.Canny(gray_img, 120, 150)
 plt.imshow(canny_edges,cmap='gray')
 plt.title('canny_edges')
